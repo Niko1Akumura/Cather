@@ -7,7 +7,7 @@ class Menu:
         self.window = window
         self.window.title('Wild Hunt')
         self.window.geometry('720x420')
-        self.window.configure(bg='#173B0B')  # Установка цвета фона для всего окна
+        self.window.configure(bg='#173B0B') 
 
         self.background_image = Image.open("img/background_menu.jpg")
         self.background_image = ImageTk.PhotoImage(self.background_image)
